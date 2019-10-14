@@ -6,20 +6,21 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>hexo搭建个人博客 | Hexo</title>
+  <title>Github Pages 与 hexo 打造个人博客 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="标题1标题2标题3">
-<meta name="keywords" content="算法,最大存水量">
+  <meta name="keywords" content="Github,hexo,Yilia">
 <meta property="og:type" content="article">
-<meta property="og:title" content="hexo搭建个人博客">
-<meta property="og:url" content="http://yoursite.com/2019/10/09/hexo搭建个人博客/index.html">
+<meta property="og:title" content="Github Pages 与 hexo 打造个人博客">
+<meta property="og:url" content="http://yoursite.com/2019/10/14/GithubPages与Hexo打造个人博客/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="标题1标题2标题3">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-10-10T07:35:16.481Z">
+<meta property="og:image" content="https://i.loli.net/2019/10/14/2PvmD7xfRXGYq6E.png">
+<meta property="og:image" content="https://i.loli.net/2019/10/14/gubpPU3KYTrdRyi.png">
+<meta property="og:image" content="https://i.loli.net/2019/10/14/JuMIjd2KGwzmPCQ.png">
+<meta property="og:updated_time" content="2019-10-14T10:02:10.694Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="hexo搭建个人博客">
-<meta name="twitter:description" content="标题1标题2标题3">
+<meta name="twitter:title" content="Github Pages 与 hexo 打造个人博客">
+<meta name="twitter:image" content="https://i.loli.net/2019/10/14/2PvmD7xfRXGYq6E.png">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -147,46 +148,62 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-hexo搭建个人博客" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-GithubPages与Hexo打造个人博客" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      hexo搭建个人博客
+      Github Pages 与 hexo 打造个人博客
     </h1>
   
 
         
-        <a href="/2019/10/09/hexo搭建个人博客/" class="archive-article-date">
-  	<time datetime="2019-10-09T09:12:12.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-10-09</time>
+        <a href="/2019/10/14/GithubPages与Hexo打造个人博客/" class="archive-article-date">
+  	<time datetime="2019-10-14T09:20:08.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-10-14</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="标题1"><a href="#标题1" class="headerlink" title="标题1"></a>标题1</h1><h2 id="标题2"><a href="#标题2" class="headerlink" title="标题2"></a>标题2</h2><h3 id="标题3"><a href="#标题3" class="headerlink" title="标题3"></a>标题3</h3><a id="more"></a>
-<h4 id="标题4"><a href="#标题4" class="headerlink" title="标题4"></a>标题4</h4><h5 id="标题5"><a href="#标题5" class="headerlink" title="标题5"></a>标题5</h5><h6 id="标题6"><a href="#标题6" class="headerlink" title="标题6"></a>标题6</h6><figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">require</span> <span class="string">'redcarpet'</span></span><br><span class="line">markdown = Redcarpet.new(<span class="string">"Hello World!"</span>)</span><br><span class="line">puts markdown.to_html</span><br></pre></td></tr></table></figure>
+        <!-- toc -->
+<a id="more"></a>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本人嵌入式软件工程师，基于整理记录知识 和 交流的目的搭建的个人博客。在windows平台下，使用Github Bash ，hexo搭建的个人博客，使用Yilia主题，使用Valine 评论。<br>由于没有弄个人域名，这里就不写了，有兴趣的小伙伴可以自行解决这个问题，但是我觉得这个是没有很大必要性的。</p>
+<h3 id="1、安装Git-Bash"><a href="#1、安装Git-Bash" class="headerlink" title="1、安装Git Bash"></a>1、安装Git Bash</h3><p><a href="https://gitforwindows.org/" target="_blank" rel="noopener">下载地址</a><br>安装步骤，一直next。</p>
+<p>&nbsp;&nbsp;</p>
+<h3 id="2、安装Node-JS"><a href="#2、安装Node-JS" class="headerlink" title="2、安装Node.JS"></a>2、安装Node.JS</h3><p>安装hexo时用到<br><a href="https://nodejs.org/en/" target="_blank" rel="noopener">下载地址</a><br>安装步骤，基本也是一路next。<br>注意 在Custom Setup页面中，Add to Path要选中，不然要自己配置环境。<br><img src="https://i.loli.net/2019/10/14/2PvmD7xfRXGYq6E.png" alt="dff.png"><br>安装完成后检查环境cmd 输入path 看node是否已经配置到环境中去了<br><img src="https://i.loli.net/2019/10/14/gubpPU3KYTrdRyi.png" alt="_X61_081Z_CUXQNNS2TM_ZP.png" style="zoom: 67%;"></p>
+<p>&nbsp;&nbsp;</p>
+<h3 id="3、安装hexo-并搭建本地博客"><a href="#3、安装hexo-并搭建本地博客" class="headerlink" title="3、安装hexo 并搭建本地博客"></a>3、安装hexo 并搭建本地博客</h3><h4 id="3-1-安装hexo-并初始化"><a href="#3-1-安装hexo-并初始化" class="headerlink" title="3.1 安装hexo 并初始化"></a>3.1 安装hexo 并初始化</h4><p>创建存放blog的文件夹。<br>打开cmd进入到该文件夹中，输入安装hexo的命令。（也可以在gitbash中输入该指令，但是我试过会出问题。所以使用cmd输入该指令安装。）</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i -g hexo</span><br></pre></td></tr></table></figure>
 
-<h1 id="标题1-1"><a href="#标题1-1" class="headerlink" title="标题1"></a>标题1</h1><h2 id="标题2-1"><a href="#标题2-1" class="headerlink" title="标题2"></a>标题2</h2><h3 id="标题3-1"><a href="#标题3-1" class="headerlink" title="标题3"></a>标题3</h3><h4 id="标题4-1"><a href="#标题4-1" class="headerlink" title="标题4"></a>标题4</h4><h5 id="标题5-1"><a href="#标题5-1" class="headerlink" title="标题5"></a>标题5</h5><h6 id="标题6-1"><a href="#标题6-1" class="headerlink" title="标题6"></a>标题6</h6><figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">require</span> <span class="string">'redcarpet'</span></span><br><span class="line">markdown = Redcarpet.new(<span class="string">"Hello World!"</span>)</span><br><span class="line">puts markdown.to_html</span><br></pre></td></tr></table></figure>
+<p>安装完成后 检查是否成功</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo -v</span><br></pre></td></tr></table></figure>
 
-<h1 id="标题1-2"><a href="#标题1-2" class="headerlink" title="标题1"></a>标题1</h1><h2 id="标题2-2"><a href="#标题2-2" class="headerlink" title="标题2"></a>标题2</h2><h3 id="标题3-2"><a href="#标题3-2" class="headerlink" title="标题3"></a>标题3</h3><h4 id="标题4-2"><a href="#标题4-2" class="headerlink" title="标题4"></a>标题4</h4><h5 id="标题5-2"><a href="#标题5-2" class="headerlink" title="标题5"></a>标题5</h5><h6 id="标题6-2"><a href="#标题6-2" class="headerlink" title="标题6"></a>标题6</h6><figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">require</span> <span class="string">'redcarpet'</span></span><br><span class="line">markdown = Redcarpet.new(<span class="string">"Hello World!"</span>)</span><br><span class="line">puts markdown.to_html</span><br></pre></td></tr></table></figure>
+<p>初始化</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
 
-<h1 id="标题1-3"><a href="#标题1-3" class="headerlink" title="标题1"></a>标题1</h1><h2 id="标题2-3"><a href="#标题2-3" class="headerlink" title="标题2"></a>标题2</h2><h3 id="标题3-3"><a href="#标题3-3" class="headerlink" title="标题3"></a>标题3</h3><h4 id="标题4-3"><a href="#标题4-3" class="headerlink" title="标题4"></a>标题4</h4><h5 id="标题5-3"><a href="#标题5-3" class="headerlink" title="标题5"></a>标题5</h5><h6 id="标题6-3"><a href="#标题6-3" class="headerlink" title="标题6"></a>标题6</h6><figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">require</span> <span class="string">'redcarpet'</span></span><br><span class="line">markdown = Redcarpet.new(<span class="string">"Hello World!"</span>)</span><br><span class="line">puts markdown.to_html</span><br></pre></td></tr></table></figure>
+<p>完成后，文件夹会多出很多内容。这里只介绍几个我用到的。</p>
+<ul>
+<li>_config.yml：整个博客的配置。经常用到。</li>
+<li>themes：设置的主题放在这里。</li>
+<li>source：用命令创建的文章存放在这个目录。</li>
+<li>public：最后生成的页面存放在这里</li>
+</ul>
+<h4 id="3-2-部署项目"><a href="#3-2-部署项目" class="headerlink" title="3.2 部署项目"></a>3.2 部署项目</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure>
 
-<h1 id="标题1-4"><a href="#标题1-4" class="headerlink" title="标题1"></a>标题1</h1><h2 id="标题2-4"><a href="#标题2-4" class="headerlink" title="标题2"></a>标题2</h2><h3 id="标题3-4"><a href="#标题3-4" class="headerlink" title="标题3"></a>标题3</h3><h4 id="标题4-4"><a href="#标题4-4" class="headerlink" title="标题4"></a>标题4</h4><h5 id="标题5-4"><a href="#标题5-4" class="headerlink" title="标题5"></a>标题5</h5><h6 id="标题6-4"><a href="#标题6-4" class="headerlink" title="标题6"></a>标题6</h6><figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">require</span> <span class="string">'redcarpet'</span></span><br><span class="line">markdown = Redcarpet.new(<span class="string">"Hello World!"</span>)</span><br><span class="line">puts markdown.to_html</span><br></pre></td></tr></table></figure>
+<p>然后打开页面<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a>  当当当当当，这就是你的博客了。到这里，基本完成了第一大步了。<br>*注意：hexo server指令可能会不行，可以尝试先安装 “npm i hexo-server” *<br>&nbsp;&nbsp;</p>
+<h3 id="4、将博客部署到Github-Page"><a href="#4、将博客部署到Github-Page" class="headerlink" title="4、将博客部署到Github Page"></a>4、将博客部署到Github Page</h3><h4 id="4-1创建仓库。"><a href="#4-1创建仓库。" class="headerlink" title="4.1创建仓库。"></a>4.1创建仓库。</h4><p>登录github账号，创建仓库，仓库名是Yourname.github.io。如图<br><img src="https://i.loli.net/2019/10/14/JuMIjd2KGwzmPCQ.png" alt="B_XJ9SQA_Q4B2_M_QJCKR34.png"><br>![XQ_94Y39`T__IV~BPUGGM5P.png](<a href="https://i.loli.net/2019/10/14/GMaIAkUyo61lHiN.png" target="_blank" rel="noopener">https://i.loli.net/2019/10/14/GMaIAkUyo61lHiN.png</a>)</p>
+<h4 id="4-2配置github账号信息。"><a href="#4-2配置github账号信息。" class="headerlink" title="4.2配置github账号信息。"></a>4.2配置github账号信息。</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;YourName&quot;</span><br><span class="line">git config --global user.email &quot;YourEmail&quot;</span><br></pre></td></tr></table></figure>
 
-<h1 id="标题1-5"><a href="#标题1-5" class="headerlink" title="标题1"></a>标题1</h1><h2 id="标题2-5"><a href="#标题2-5" class="headerlink" title="标题2"></a>标题2</h2><h3 id="标题3-5"><a href="#标题3-5" class="headerlink" title="标题3"></a>标题3</h3><h4 id="标题4-5"><a href="#标题4-5" class="headerlink" title="标题4"></a>标题4</h4><h5 id="标题5-5"><a href="#标题5-5" class="headerlink" title="标题5"></a>标题5</h5><h6 id="标题6-5"><a href="#标题6-5" class="headerlink" title="标题6"></a>标题6</h6><figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">require</span> <span class="string">'redcarpet'</span></span><br><span class="line">markdown = Redcarpet.new(<span class="string">"Hello World!"</span>)</span><br><span class="line">puts markdown.to_html</span><br></pre></td></tr></table></figure>
+<h4 id="4-3-config-yml配置"><a href="#4-3-config-yml配置" class="headerlink" title="4.3_config.yml配置"></a>4.3_config.yml配置</h4><p>打开blog目录下的<strong>_config.yml</strong>文件，修改deploy，如下所示。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://github.com/YourgithubName/YourgithubName.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
 
-<h1 id="标题1-6"><a href="#标题1-6" class="headerlink" title="标题1"></a>标题1</h1><h2 id="标题2-6"><a href="#标题2-6" class="headerlink" title="标题2"></a>标题2</h2><h3 id="标题3-6"><a href="#标题3-6" class="headerlink" title="标题3"></a>标题3</h3><h4 id="标题4-6"><a href="#标题4-6" class="headerlink" title="标题4"></a>标题4</h4><h5 id="标题5-6"><a href="#标题5-6" class="headerlink" title="标题5"></a>标题5</h5><h6 id="标题6-6"><a href="#标题6-6" class="headerlink" title="标题6"></a>标题6</h6><figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">require</span> <span class="string">'redcarpet'</span></span><br><span class="line">markdown = Redcarpet.new(<span class="string">"Hello World!"</span>)</span><br><span class="line">puts markdown.to_html</span><br></pre></td></tr></table></figure>
-
-<h1 id="标题1-7"><a href="#标题1-7" class="headerlink" title="标题1"></a>标题1</h1><h2 id="标题2-7"><a href="#标题2-7" class="headerlink" title="标题2"></a>标题2</h2><h3 id="标题3-7"><a href="#标题3-7" class="headerlink" title="标题3"></a>标题3</h3><h4 id="标题4-7"><a href="#标题4-7" class="headerlink" title="标题4"></a>标题4</h4><h5 id="标题5-7"><a href="#标题5-7" class="headerlink" title="标题5"></a>标题5</h5><h6 id="标题6-7"><a href="#标题6-7" class="headerlink" title="标题6"></a>标题6</h6><figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">require</span> <span class="string">'redcarpet'</span></span><br><span class="line">markdown = Redcarpet.new(<span class="string">"Hello World!"</span>)</span><br><span class="line">puts markdown.to_html</span><br></pre></td></tr></table></figure>
-
-<h1 id="标题1-8"><a href="#标题1-8" class="headerlink" title="标题1"></a>标题1</h1><h2 id="标题2-8"><a href="#标题2-8" class="headerlink" title="标题2"></a>标题2</h2><h3 id="标题3-8"><a href="#标题3-8" class="headerlink" title="标题3"></a>标题3</h3><h4 id="标题4-8"><a href="#标题4-8" class="headerlink" title="标题4"></a>标题4</h4><h5 id="标题5-8"><a href="#标题5-8" class="headerlink" title="标题5"></a>标题5</h5><h6 id="标题6-8"><a href="#标题6-8" class="headerlink" title="标题6"></a>标题6</h6><figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">require</span> <span class="string">'redcarpet'</span></span><br><span class="line">markdown = Redcarpet.new(<span class="string">"Hello World!"</span>)</span><br><span class="line">puts markdown.to_html</span><br></pre></td></tr></table></figure>
-
-
+<h4 id="4-4上传到github"><a href="#4-4上传到github" class="headerlink" title="4.4上传到github"></a>4.4上传到github</h4><p>安装：<figure class="highlight plain"><figcaption><span>install hexo-deployer-git --save```</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">然后以后每次更新博客上传，输入以下指令即可：</span><br></pre></td></tr></table></figure></p>
+<p>hexo clean<br>hexo generate<br>hexo deploy</p>
+<p>```<br>deploy过程中会弹出一个界面，需要输入用户名密码登录的。<br>然后输入<a href="http://yourgithubname.github.io" target="_blank" rel="noopener">http://yourgithubname.github.io</a>  就可以看到自己的博客啦。</p>
+<h3 id="5、修改及配置主题"><a href="#5、修改及配置主题" class="headerlink" title="5、修改及配置主题"></a>5、修改及配置主题</h3><h3 id="6、写一篇博客"><a href="#6、写一篇博客" class="headerlink" title="6、写一篇博客"></a>6、写一篇博客</h3><h3 id="7、添加评论"><a href="#7、添加评论" class="headerlink" title="7、添加评论"></a>7、添加评论</h3><h3 id="8、Yilia主题相关"><a href="#8、Yilia主题相关" class="headerlink" title="8、Yilia主题相关"></a>8、Yilia主题相关</h3><h4 id="Yilia主题的缺失模块解决"><a href="#Yilia主题的缺失模块解决" class="headerlink" title="Yilia主题的缺失模块解决"></a>Yilia主题的缺失模块解决</h4><h4 id="Yilia主题文章截断和多标签设置"><a href="#Yilia主题文章截断和多标签设置" class="headerlink" title="Yilia主题文章截断和多标签设置"></a>Yilia主题文章截断和多标签设置</h4>
       
 
       
@@ -220,11 +237,15 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">算法</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">Github</a>
         		</li>
       		 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">最大存水量</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">hexo</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Yilia</a>
         		</li>
       		
 		</ul>
@@ -280,7 +301,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://yoursite.com/2019/10/09/hexo搭建个人博客/" alt="微信分享二维码">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://yoursite.com/2019/10/14/GithubPages与Hexo打造个人博客/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -452,6 +473,18 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">最大存水量</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">Github</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">hexo</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">Yilia</a>
               </li>
             
             <div class="clearfix"></div>
