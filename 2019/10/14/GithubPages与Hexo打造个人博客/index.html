@@ -17,7 +17,7 @@
 <meta property="og:image" content="https://i.loli.net/2019/10/14/2PvmD7xfRXGYq6E.png">
 <meta property="og:image" content="https://i.loli.net/2019/10/14/gubpPU3KYTrdRyi.png">
 <meta property="og:image" content="https://i.loli.net/2019/10/14/JuMIjd2KGwzmPCQ.png">
-<meta property="og:updated_time" content="2019-10-14T10:02:10.694Z">
+<meta property="og:updated_time" content="2019-10-14T10:07:20.199Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Github Pages 与 hexo 打造个人博客">
 <meta name="twitter:image" content="https://i.loli.net/2019/10/14/2PvmD7xfRXGYq6E.png">
@@ -194,7 +194,8 @@
 <h4 id="3-2-部署项目"><a href="#3-2-部署项目" class="headerlink" title="3.2 部署项目"></a>3.2 部署项目</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure>
 
 <p>然后打开页面<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a>  当当当当当，这就是你的博客了。到这里，基本完成了第一大步了。<br>*注意：hexo server指令可能会不行，可以尝试先安装 “npm i hexo-server” *<br>&nbsp;&nbsp;</p>
-<h3 id="4、将博客部署到Github-Page"><a href="#4、将博客部署到Github-Page" class="headerlink" title="4、将博客部署到Github Page"></a>4、将博客部署到Github Page</h3><h4 id="4-1创建仓库。"><a href="#4-1创建仓库。" class="headerlink" title="4.1创建仓库。"></a>4.1创建仓库。</h4><p>登录github账号，创建仓库，仓库名是Yourname.github.io。如图<br><img src="https://i.loli.net/2019/10/14/JuMIjd2KGwzmPCQ.png" alt="B_XJ9SQA_Q4B2_M_QJCKR34.png"><br>![XQ_94Y39`T__IV~BPUGGM5P.png](<a href="https://i.loli.net/2019/10/14/GMaIAkUyo61lHiN.png" target="_blank" rel="noopener">https://i.loli.net/2019/10/14/GMaIAkUyo61lHiN.png</a>)</p>
+<h3 id="4、将博客部署到Github-Page"><a href="#4、将博客部署到Github-Page" class="headerlink" title="4、将博客部署到Github Page"></a>4、将博客部署到Github Page</h3><h4 id="4-1创建仓库。"><a href="#4-1创建仓库。" class="headerlink" title="4.1创建仓库。"></a>4.1创建仓库。</h4><p>登录github账号，创建仓库，仓库名是Yourname.github.io。如图<br><img src="https://i.loli.net/2019/10/14/JuMIjd2KGwzmPCQ.png" alt="B_XJ9SQA_Q4B2_M_QJCKR34.png"></p>
+<p>![XQ_94Y39`T__IV~BPUGGM5P.png](<a href="https://i.loli.net/2019/10/14/GMaIAkUyo61lHiN.png" target="_blank" rel="noopener">https://i.loli.net/2019/10/14/GMaIAkUyo61lHiN.png</a>)</p>
 <h4 id="4-2配置github账号信息。"><a href="#4-2配置github账号信息。" class="headerlink" title="4.2配置github账号信息。"></a>4.2配置github账号信息。</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;YourName&quot;</span><br><span class="line">git config --global user.email &quot;YourEmail&quot;</span><br></pre></td></tr></table></figure>
 
 <h4 id="4-3-config-yml配置"><a href="#4-3-config-yml配置" class="headerlink" title="4.3_config.yml配置"></a>4.3_config.yml配置</h4><p>打开blog目录下的<strong>_config.yml</strong>文件，修改deploy，如下所示。</p>
@@ -466,14 +467,6 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">算法</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">最大存水量</a>
-              </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">Github</a>
