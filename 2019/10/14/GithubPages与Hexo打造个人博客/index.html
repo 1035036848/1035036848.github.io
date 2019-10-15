@@ -8,19 +8,22 @@
   <link rel="dns-prefetch" href="http://yoursite.com">
   <title>Github Pages 与 hexo 打造个人博客 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="keywords" content="Github,hexo,Yilia">
+  <meta name="description" content="&amp;nbsp;">
+<meta name="keywords" content="Github,hexo,Yilia">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Github Pages 与 hexo 打造个人博客">
 <meta property="og:url" content="http://yoursite.com/2019/10/14/GithubPages与Hexo打造个人博客/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="&amp;nbsp;">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="https://i.loli.net/2019/10/14/2PvmD7xfRXGYq6E.png">
 <meta property="og:image" content="https://i.loli.net/2019/10/14/gubpPU3KYTrdRyi.png">
 <meta property="og:image" content="https://i.loli.net/2019/10/14/JuMIjd2KGwzmPCQ.png">
 <meta property="og:image" content="https://i.loli.net/2019/10/14/GMaIAkUyo61lHiN.png">
-<meta property="og:updated_time" content="2019-10-14T12:44:06.386Z">
+<meta property="og:updated_time" content="2019-10-15T02:17:01.051Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Github Pages 与 hexo 打造个人博客">
+<meta name="twitter:description" content="&amp;nbsp;">
 <meta name="twitter:image" content="https://i.loli.net/2019/10/14/2PvmD7xfRXGYq6E.png">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
@@ -167,17 +170,29 @@
         
       </header>
     
+
     <div class="article-entry" itemprop="articleBody">
       
-        <!-- toc -->
+        <p>&nbsp;</p>
 <a id="more"></a>
 
+<p><a href="#0">前言</a>.<br><a href="#1">1、安装Git Bash</a><br><a href="#2">2、安装Node.JS</a><br><a href="#3">3、安装hexo 并搭建本地博客</a><br>&emsp;<a href="#3.1">3.1 安装hexo 并初始化</a><br>&emsp;<a href="#3.2">3.2 部署项目</a><br><a href="#4">4、将博客部署到Github Page</a><br>&emsp;<a href="#4.1">4.1创建仓库</a><br>&emsp;<a href="#4.2">4.2配置github账号信息</a><br>&emsp;<a href="#4.3">4.3_config.yml配置</a><br>&emsp;<a href="#4.4">4.4上传到github</a></p>
+<div id="0"></div>
+
 <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本人嵌入式软件工程师，基于整理记录知识 和 交流的目的搭建的个人博客。在windows平台下，使用Github Bash ，hexo搭建的个人博客，使用Yilia主题，使用Valine 评论。<br>由于没有弄个人域名，这里就不写了，有兴趣的小伙伴可以自行解决这个问题，但是我觉得这个是没有很大必要性的。</p>
+<div id="1"></div>
+
 <h3 id="1、安装Git-Bash"><a href="#1、安装Git-Bash" class="headerlink" title="1、安装Git Bash"></a>1、安装Git Bash</h3><p><a href="https://gitforwindows.org/" target="_blank" rel="noopener">下载地址</a><br>安装步骤，一直next。</p>
 <p>&nbsp;&nbsp;</p>
+<div id="2"></div>
+
 <h3 id="2、安装Node-JS"><a href="#2、安装Node-JS" class="headerlink" title="2、安装Node.JS"></a>2、安装Node.JS</h3><p>安装hexo时用到<br><a href="https://nodejs.org/en/" target="_blank" rel="noopener">下载地址</a><br>安装步骤，基本也是一路next。<br>注意 在Custom Setup页面中，Add to Path要选中，不然要自己配置环境。<br><img src="https://i.loli.net/2019/10/14/2PvmD7xfRXGYq6E.png" alt="dff.png"><br>安装完成后检查环境cmd 输入path 看node是否已经配置到环境中去了<br><img src="https://i.loli.net/2019/10/14/gubpPU3KYTrdRyi.png" alt="_X61_081Z_CUXQNNS2TM_ZP.png" style="zoom: 67%;"></p>
 <p>&nbsp;&nbsp;</p>
-<h3 id="3、安装hexo-并搭建本地博客"><a href="#3、安装hexo-并搭建本地博客" class="headerlink" title="3、安装hexo 并搭建本地博客"></a>3、安装hexo 并搭建本地博客</h3><h4 id="3-1-安装hexo-并初始化"><a href="#3-1-安装hexo-并初始化" class="headerlink" title="3.1 安装hexo 并初始化"></a>3.1 安装hexo 并初始化</h4><p>创建存放blog的文件夹。<br>打开cmd进入到该文件夹中，输入安装hexo的命令。（也可以在gitbash中输入该指令，但是我试过会出问题。所以使用cmd输入该指令安装。）</p>
+<div id="3"></div>
+
+<h3 id="3、安装hexo-并搭建本地博客"><a href="#3、安装hexo-并搭建本地博客" class="headerlink" title="3、安装hexo 并搭建本地博客"></a>3、安装hexo 并搭建本地博客</h3><div id=" 3.1"></div>
+
+<h4 id="3-1-安装hexo-并初始化"><a href="#3-1-安装hexo-并初始化" class="headerlink" title="3.1 安装hexo 并初始化"></a>3.1 安装hexo 并初始化</h4><p>创建存放blog的文件夹。<br>打开cmd进入到该文件夹中，输入安装hexo的命令。（也可以在gitbash中输入该指令，但是我试过会出问题。所以使用cmd输入该指令安装。）</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i -g hexo</span><br></pre></td></tr></table></figure>
 
 <p>安装完成后 检查是否成功</p>
@@ -193,18 +208,34 @@
 <li>source：用命令创建的文章存放在这个目录。</li>
 <li>public：最后生成的页面存放在这里</li>
 </ul>
+<div id="3.2"></div>
+
 <h4 id="3-2-部署项目"><a href="#3-2-部署项目" class="headerlink" title="3.2 部署项目"></a>3.2 部署项目</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure>
 
-<p>然后打开页面<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a>  当当当当当，这就是你的博客了。到这里，基本完成了第一大步了。<br>*注意：hexo server指令可能会不行，可以尝试先安装 “npm i hexo-server” *<br>&nbsp;&nbsp;</p>
-<h3 id="4、将博客部署到Github-Page"><a href="#4、将博客部署到Github-Page" class="headerlink" title="4、将博客部署到Github Page"></a>4、将博客部署到Github Page</h3><h4 id="4-1创建仓库。"><a href="#4-1创建仓库。" class="headerlink" title="4.1创建仓库。"></a>4.1创建仓库。</h4><p>登录github账号，创建仓库，仓库名是Yourname.github.io。如图<br><img src="https://i.loli.net/2019/10/14/JuMIjd2KGwzmPCQ.png" alt="1.png"><br><img src="https://i.loli.net/2019/10/14/GMaIAkUyo61lHiN.png" alt="2.png"></p>
-<h4 id="4-2配置github账号信息。"><a href="#4-2配置github账号信息。" class="headerlink" title="4.2配置github账号信息。"></a>4.2配置github账号信息。</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;YourName&quot;</span><br><span class="line">git config --global user.email &quot;YourEmail&quot;</span><br></pre></td></tr></table></figure>
+<p>然后打开页面<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a>  当当当当当，这就是你的博客了。到这里，基本完成了第一大步了。<br><em>注意：hexo server指令可能会不行，可以尝试先安装 &quot;npm i hexo-server&quot;</em><br>&nbsp;&nbsp;</p>
+<div id="4"></div>
+
+<h3 id="4、将博客部署到Github-Page"><a href="#4、将博客部署到Github-Page" class="headerlink" title="4、将博客部署到Github Page"></a>4、将博客部署到Github Page</h3><div id="4.1"></div>
+
+<h4 id="4-1创建仓库"><a href="#4-1创建仓库" class="headerlink" title="4.1创建仓库"></a>4.1创建仓库</h4><p>登录github账号，创建仓库，仓库名是Yourname.github.io。如图<br><img src="https://i.loli.net/2019/10/14/JuMIjd2KGwzmPCQ.png" alt="1.png"><br><img src="https://i.loli.net/2019/10/14/GMaIAkUyo61lHiN.png" alt="2.png"></p>
+<div id="4.2"></div>
+
+<h4 id="4-2配置github账号信息"><a href="#4-2配置github账号信息" class="headerlink" title="4.2配置github账号信息"></a>4.2配置github账号信息</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;YourName&quot;</span><br><span class="line">git config --global user.email &quot;YourEmail&quot;</span><br></pre></td></tr></table></figure>
+
+<div id="4.3"></div>
 
 <h4 id="4-3-config-yml配置"><a href="#4-3-config-yml配置" class="headerlink" title="4.3_config.yml配置"></a>4.3_config.yml配置</h4><p>打开blog目录下的<strong>_config.yml</strong>文件，修改deploy，如下所示。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://github.com/YourgithubName/YourgithubName.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
 
-<h4 id="4-4上传到github"><a href="#4-4上传到github" class="headerlink" title="4.4上传到github"></a>4.4上传到github</h4><p>安装：<figure class="highlight plain"><figcaption><span>install hexo-deployer-git --save```</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">然后以后每次更新博客上传，输入以下指令即可：</span><br></pre></td></tr></table></figure></p>
-<p>hexo clean<br>hexo generate<br>hexo deploy</p>
-<p>```<br>deploy过程中会弹出一个界面，需要输入用户名密码登录的。<br>然后输入<a href="http://yourgithubname.github.io" target="_blank" rel="noopener">http://yourgithubname.github.io</a>  就可以看到自己的博客啦。</p>
+<div id="4.4"></div>
+
+<h4 id="4-4上传到github"><a href="#4-4上传到github" class="headerlink" title="4.4上传到github"></a>4.4上传到github</h4><p>安装：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+
+<p>然后以后每次更新博客上传，输入以下指令即可：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>deploy过程中会弹出一个界面，需要输入用户名密码登录的。<br>然后输入<a href="http://yourgithubname.github.io" target="_blank" rel="noopener">http://yourgithubname.github.io</a>  就可以看到自己的博客啦。</p>
 <h3 id="5、修改及配置主题"><a href="#5、修改及配置主题" class="headerlink" title="5、修改及配置主题"></a>5、修改及配置主题</h3><h3 id="6、写一篇博客"><a href="#6、写一篇博客" class="headerlink" title="6、写一篇博客"></a>6、写一篇博客</h3><h3 id="7、添加评论"><a href="#7、添加评论" class="headerlink" title="7、添加评论"></a>7、添加评论</h3><h3 id="8、Yilia主题相关"><a href="#8、Yilia主题相关" class="headerlink" title="8、Yilia主题相关"></a>8、Yilia主题相关</h3><h4 id="Yilia主题的缺失模块解决"><a href="#Yilia主题的缺失模块解决" class="headerlink" title="Yilia主题的缺失模块解决"></a>Yilia主题的缺失模块解决</h4><h4 id="Yilia主题文章截断和多标签设置"><a href="#Yilia主题文章截断和多标签设置" class="headerlink" title="Yilia主题文章截断和多标签设置"></a>Yilia主题文章截断和多标签设置</h4>
       
 
@@ -346,7 +377,7 @@
                 </span>
                 <span class="tooltip-content">
                     <div class="toc-article">
-                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#前言"><span class="toc-number">1.</span> <span class="toc-text">前言</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1、安装Git-Bash"><span class="toc-number">1.1.</span> <span class="toc-text">1、安装Git Bash</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2、安装Node-JS"><span class="toc-number">1.2.</span> <span class="toc-text">2、安装Node.JS</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3、安装hexo-并搭建本地博客"><span class="toc-number">1.3.</span> <span class="toc-text">3、安装hexo 并搭建本地博客</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#3-1-安装hexo-并初始化"><span class="toc-number">1.3.1.</span> <span class="toc-text">3.1 安装hexo 并初始化</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-2-部署项目"><span class="toc-number">1.3.2.</span> <span class="toc-text">3.2 部署项目</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4、将博客部署到Github-Page"><span class="toc-number">1.4.</span> <span class="toc-text">4、将博客部署到Github Page</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#4-1创建仓库。"><span class="toc-number">1.4.1.</span> <span class="toc-text">4.1创建仓库。</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-2配置github账号信息。"><span class="toc-number">1.4.2.</span> <span class="toc-text">4.2配置github账号信息。</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-3-config-yml配置"><span class="toc-number">1.4.3.</span> <span class="toc-text">4.3_config.yml配置</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-4上传到github"><span class="toc-number">1.4.4.</span> <span class="toc-text">4.4上传到github</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5、修改及配置主题"><span class="toc-number">1.5.</span> <span class="toc-text">5、修改及配置主题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6、写一篇博客"><span class="toc-number">1.6.</span> <span class="toc-text">6、写一篇博客</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#7、添加评论"><span class="toc-number">1.7.</span> <span class="toc-text">7、添加评论</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#8、Yilia主题相关"><span class="toc-number">1.8.</span> <span class="toc-text">8、Yilia主题相关</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Yilia主题的缺失模块解决"><span class="toc-number">1.8.1.</span> <span class="toc-text">Yilia主题的缺失模块解决</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Yilia主题文章截断和多标签设置"><span class="toc-number">1.8.2.</span> <span class="toc-text">Yilia主题文章截断和多标签设置</span></a></li></ol></li></ol></li></ol>
+                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#前言"><span class="toc-number">1.</span> <span class="toc-text">前言</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1、安装Git-Bash"><span class="toc-number">1.1.</span> <span class="toc-text">1、安装Git Bash</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2、安装Node-JS"><span class="toc-number">1.2.</span> <span class="toc-text">2、安装Node.JS</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3、安装hexo-并搭建本地博客"><span class="toc-number">1.3.</span> <span class="toc-text">3、安装hexo 并搭建本地博客</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#3-1-安装hexo-并初始化"><span class="toc-number">1.3.1.</span> <span class="toc-text">3.1 安装hexo 并初始化</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-2-部署项目"><span class="toc-number">1.3.2.</span> <span class="toc-text">3.2 部署项目</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4、将博客部署到Github-Page"><span class="toc-number">1.4.</span> <span class="toc-text">4、将博客部署到Github Page</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#4-1创建仓库"><span class="toc-number">1.4.1.</span> <span class="toc-text">4.1创建仓库</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-2配置github账号信息"><span class="toc-number">1.4.2.</span> <span class="toc-text">4.2配置github账号信息</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-3-config-yml配置"><span class="toc-number">1.4.3.</span> <span class="toc-text">4.3_config.yml配置</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-4上传到github"><span class="toc-number">1.4.4.</span> <span class="toc-text">4.4上传到github</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5、修改及配置主题"><span class="toc-number">1.5.</span> <span class="toc-text">5、修改及配置主题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6、写一篇博客"><span class="toc-number">1.6.</span> <span class="toc-text">6、写一篇博客</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#7、添加评论"><span class="toc-number">1.7.</span> <span class="toc-text">7、添加评论</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#8、Yilia主题相关"><span class="toc-number">1.8.</span> <span class="toc-text">8、Yilia主题相关</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Yilia主题的缺失模块解决"><span class="toc-number">1.8.1.</span> <span class="toc-text">Yilia主题的缺失模块解决</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Yilia主题文章截断和多标签设置"><span class="toc-number">1.8.2.</span> <span class="toc-text">Yilia主题文章截断和多标签设置</span></a></li></ol></li></ol></li></ol>
                     </div>
                 </span>
             </div>
